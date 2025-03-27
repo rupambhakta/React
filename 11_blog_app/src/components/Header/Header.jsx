@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container } from "../container/Container"
-import Logo, { logo } from "../Logo"
+import  Container from "../container/Container"
+import Logo from "../Logo"
 import { Link, Navigate } from 'react-router-dom'
 import LogoutBtn from './LogoutBtn'
 import { useNavigate } from 'react-router-dom'
@@ -49,7 +49,8 @@ function Header() {
                         {
                             navItems.map((item) => item.active ? (
                                 <li key={item.name}>
-                                    <button onClick={() => Navigate(item.slug)}
+                                    <button 
+                                    onClick={() => navigate(item.slug)}
                                         className='inline-block px-6 py-2 duration-200 hover:bg-blue-100 rounded-full'>
                                         {item.name}
                                     </button>
