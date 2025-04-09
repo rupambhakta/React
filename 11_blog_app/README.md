@@ -10,3 +10,15 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## TODO - 
+
+1. Privide a height and width for the image
+2. Impliment phone number login and google login
+3. Impliment a file preview in the form
+4. React-redux(Study)
+5. useEffecr, useState, useNavigate, useDishpatch from "react-redux" 
+6. Create a lodar component
+
+Time - 1.50
